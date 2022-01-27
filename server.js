@@ -39,6 +39,7 @@ app.use(function(req, res, next) {
 });
 
 const port = process.env.PORT || 3000;
+console.log(port)
 
 //Start our server and tests!
 app.listen(port, function () {
